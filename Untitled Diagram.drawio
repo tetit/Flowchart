@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T18:47:48.953Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="oPhpW85Si0m3WxFWHpsk" version="19.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-07T18:52:03.769Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="xswawIrAFYBgXaIm1t4S" version="19.0.2" type="github" pages="5">
   <diagram id="cAMluVDB_Qh0k2FxmUku" name="Blocks">
     <mxGraphModel dx="1348" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -312,7 +312,7 @@
         </mxCell>
         <mxCell id="SftLA1MYOzQQtS0wkaU9-9" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SftLA1MYOzQQtS0wkaU9-8">
           <mxGeometry x="-0.2456" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SftLA1MYOzQQtS0wkaU9-16" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y6OVv34yN1CDZV_1R5gC-1" source="Y6OVv34yN1CDZV_1R5gC-14" target="SftLA1MYOzQQtS0wkaU9-13">
@@ -361,7 +361,10 @@
         <mxCell id="SftLA1MYOzQQtS0wkaU9-13" value="p = false" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
           <mxGeometry x="359" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SftLA1MYOzQQtS0wkaU9-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y6OVv34yN1CDZV_1R5gC-1" source="SftLA1MYOzQQtS0wkaU9-18" target="SftLA1MYOzQQtS0wkaU9-24">
+        <mxCell id="SftLA1MYOzQQtS0wkaU9-25" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y6OVv34yN1CDZV_1R5gC-1" source="SftLA1MYOzQQtS0wkaU9-18" target="SftLA1MYOzQQtS0wkaU9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SftLA1MYOzQQtS0wkaU9-27" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y6OVv34yN1CDZV_1R5gC-1" source="SftLA1MYOzQQtS0wkaU9-18" target="SftLA1MYOzQQtS0wkaU9-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SftLA1MYOzQQtS0wkaU9-18" value="If p == true" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
@@ -369,6 +372,9 @@
         </mxCell>
         <mxCell id="SftLA1MYOzQQtS0wkaU9-24" value="Output &quot;Prime&lt;br&gt;number&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
           <mxGeometry x="160" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SftLA1MYOzQQtS0wkaU9-26" value="Output &lt;br&gt;&quot;Not a prime &lt;br&gt;number&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
+          <mxGeometry x="560" y="780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

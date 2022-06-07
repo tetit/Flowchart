@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T19:06:14.568Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="pOmwM8WhBSXaX3FU4PAF" version="19.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-07T19:11:04.693Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="bh4BUnGeNMQjZV6ZxKRQ" version="19.0.2" type="github" pages="5">
   <diagram id="cAMluVDB_Qh0k2FxmUku" name="Blocks">
     <mxGraphModel dx="1348" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Oq6M6eDU7Jw8SkYnnVvi" name="car_inspection">
-    <mxGraphModel dx="1248" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="fridge_check" id="W7tF7aUU-za_hOTEnrlY">
-    <mxGraphModel dx="1508" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tvgvq-FeYENDWpsqateT-0" />
         <mxCell id="tvgvq-FeYENDWpsqateT-1" parent="tvgvq-FeYENDWpsqateT-0" />
@@ -283,7 +283,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="prime_number" id="TjIsAuZayb2J6Vkw_In2">
-    <mxGraphModel dx="1926" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Y6OVv34yN1CDZV_1R5gC-0" />
         <mxCell id="Y6OVv34yN1CDZV_1R5gC-1" parent="Y6OVv34yN1CDZV_1R5gC-0" />
@@ -381,11 +381,30 @@
         <mxCell id="SftLA1MYOzQQtS0wkaU9-18" value="If p == true" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
           <mxGeometry x="359" y="770" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="x7SUGLzz7dMWiVGd1axg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y6OVv34yN1CDZV_1R5gC-1" source="SftLA1MYOzQQtS0wkaU9-24" target="x7SUGLzz7dMWiVGd1axg-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SftLA1MYOzQQtS0wkaU9-24" value="Output &quot;Prime&lt;br&gt;number&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
           <mxGeometry x="160" y="780" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="x7SUGLzz7dMWiVGd1axg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y6OVv34yN1CDZV_1R5gC-1" source="SftLA1MYOzQQtS0wkaU9-26" target="x7SUGLzz7dMWiVGd1axg-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SftLA1MYOzQQtS0wkaU9-26" value="Output &lt;br&gt;&quot;Not a prime &lt;br&gt;number&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
           <mxGeometry x="560" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x7SUGLzz7dMWiVGd1axg-0" value="Finish" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Y6OVv34yN1CDZV_1R5gC-1">
+          <mxGeometry x="380.5" y="910" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
